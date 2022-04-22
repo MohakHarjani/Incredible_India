@@ -11,7 +11,7 @@ Each user can see the details of the tourist spots and add a review based on the
 - Authentication
 - Authorization
 - Users can add their reviews
-- User can add a new tourist spot
+- Users can add a new tourist spot
 - Secured password hashing
 
 
