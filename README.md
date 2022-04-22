@@ -1,3 +1,10 @@
-# Incredible_India
-![Capture](https://user-images.githubusercontent.com/65814030/164477908-e5c4986e-c2e0-44f2-b0b3-6f8b0abb6782.PNG)
-![giphy](https://user-images.githubusercontent.com/65814030/164478134-9ce2ce48-4d23-4b71-878e-93c7477ab7b4.gif)
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
+![rec-screen-_8_](https://user-images.githubusercontent.com/65814030/164505629-91ad015a-9010-4c79-9668-d7991cd69acf.gif)
+## Screenshots
+
+![App Screenshot](https://drive.google.com/file/d/1MwDWgI4UBA8jFkphVUSxZbEA6hcqhHQg/view?usp=sharing)
+
