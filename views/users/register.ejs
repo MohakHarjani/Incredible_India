@@ -1,0 +1,38 @@
+<%layout('layouts/boilerplate') %>
+<div class="container d-flex justify-content-center align-items-center mb-1">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+            <div class="card shadow">
+                <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWF8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                    alt="" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Register</h5>
+                    <form action = '/register' method = 'POST' class = 'validated-form' novalidate>
+                        <div class = 'mb-3'>
+                            <label class = 'form-label' for = "username">Username</label>
+                            <input class = 'form-control' type = "text" id = "username" name = 'username' required autofocus>   
+                            <div class = 'valid-feedback'>Looks Good!</div>
+                        </div >
+                        <div class = 'mb-3'>
+                            <label class = 'form-label' for = "password">Password</label>
+                            <input class = 'form-control' type = "password" id = "password" name = 'password' required>  
+                            <div class = 'valid-feedback'>Looks Good!</div>
+                        </div >
+                        <div class = 'mb-3'>
+                            <label class = 'form-label' for = "email">Email</label>
+                            <input class = 'form-control' type = "email" id = "title" name = 'email' required>   <!--We can group the names-->
+                            <div class = 'valid-feedback'>Looks Good!</div>
+                        </div >
+                        <div class = 'd-grid'>
+                            <button class = 'btn btn-success'>REGISTER</button>
+                        </div>
+                    </form>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

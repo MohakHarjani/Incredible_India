@@ -1,0 +1,38 @@
+<% layout('layouts/boilerplate') %>   <!--All the content in this file will be passed to boilerplate.ejs-->
+                     <!--The content will be passed as "body local variable" in boilerplate.ejs, boilerplate.ejs will thus render the page-->
+
+<h1>All Tourist Spots</h1>
+<!-- <div>
+    <a href = '/campgrounds/new'>Add new campground</a>
+</div> -->
+
+<% for (let x of campgrounds){ %> 
+    <div class = 'card mb-3'>
+        <div class = 'row'>
+            <div class = 'col-md-4'>
+                <img class = 'img-fluid' src = '<%=x.images[0].url%>'>
+            </div>
+            <div class = 'col-md-8'>
+                <div class = 'card-body'>
+                    <div class = 'card-title'><%=x.title%></div>
+                    <p class = 'card-text'><%=x.description%></p>
+                    <p class = 'card-text'>
+                        <small class = 'text-muted'><%=x.location%></small>
+                    </p>
+                </div>
+                <a class = 'btn btn-primary' href = '/campgrounds/<%=x._id%>'>View <%=x.title%></a>
+
+            </div>
+        </div>
+    </div>
+    
+    
+<% } %> 
+
+
+
+
+
+
+
+    
